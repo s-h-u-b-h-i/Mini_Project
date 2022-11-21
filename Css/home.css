@@ -24,6 +24,10 @@ nav ul li{
     margin-top: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
 nav ul li:hover{
     background-color:white;
     border:2px solid grey;
