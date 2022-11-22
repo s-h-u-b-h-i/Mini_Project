@@ -42,12 +42,17 @@ img{
 .about{
     width: 50%;
     height: 80vh;
-    border: 1px solid black;
-    float: right;
+    /* border: 1px solid black; */
+    text-align: center;
     margin: 10px;
+    margin-left: 400px;
+    
 }
 #heading{
     text-align: center;
     margin-top: 50px;
-    font-size: 55px;
+    font-size: 65px;
+}
+#p1{
+    font-size: 25px;
 }
