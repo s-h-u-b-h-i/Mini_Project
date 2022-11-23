@@ -1,9 +1,6 @@
 body{
     background-color: red;
 }
-#resume-form{
-    /* display: none; */
-}
 #resume-template{
     display: none;
 }
