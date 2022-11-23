@@ -8,8 +8,8 @@ function addNewWEField(){
     newNode.setAttribute("rows",3);
     newNode.setAttribute("placeholder","EnterHere");
 
-    let weOb=document.getElementsById("we");
-    let weAddButtonOb= document.getElementsById("weAddButtom");
+    let weOb=document.getElementById("we");
+    let weAddButtonOb= document.getElementById("weAddButtom");
 
 
     weOb.insertBefore(newNode, weAddButtonOb);
@@ -22,23 +22,26 @@ function addNewWEField(){
     let nameField = document.getElementById('namefield').value;
     let nameT1 = document.getElementById('nameT1');
     nameT1.innerHTML = nameField;
-    document.getElementById("nameT2").innerHTML = namefield;
- }
-
+    document.getElementById("nameT2").innerHTML = nameField;
+    console.log(nameField);
     //contact
-    document.getElementById("contactT").innerHTML = document.getElementById("contactField").value;
+    document.getElementById("contactT").innerHTML = document.getElementById("contactfield").value;
+    console.log( document.getElementById("contactfield").value);
     //address
-    document.getElementById("addressT").innerHTML = document.getElementById("addressField").value;
+    console.log( document.getElementById("addfield").value);
+    document.getElementById("addressT").innerHTML = document.getElementById("addfield").value;
+    
     //linkedin
-    document.getElementById("LinkedInfield").innerHTML = document.getElementById("linkedinF").value;
+    document.getElementById("lh").href= document.getElementById("LinkedInfield").value;
+    document.getElementById("lh").innerHTML = document.getElementById("LinkedInfield").value;
     //github
-    document.getElementById("GitHubfield").innerHTML = document.getElementById("githubF").value;
+    document.getElementById("GitHubfield").innerHTML = document.getElementById("GitHubfield").value;
     //twitter
-    document.getElementById("Twitterfield").innerHTML = document.getElementById("twitterF").value;
+    document.getElementById("Twitterfield").innerHTML = document.getElementById("Twitterfield").value;
     //leetcode
-    document.getElementById("LeetCodefield").innerHTML = document.getElementById("leetcodeF").value;
+    document.getElementById("LeetCodefield").innerHTML = document.getElementById("LeetCodefield").value;
     //objective
-    document.getElementById("objectivefield").innerHTML = document.getElementById("objectiveField").value;
+    document.getElementById("objectiveField").innerHTML = document.getElementById("objectivefield").value;
     //work experience
     let wes = document.getElementsByClassName('weField');
     let str = "";
@@ -56,6 +59,7 @@ function addNewWEField(){
 
     document.getElementById('resume-form').style.display='none';
     document.getElementById('resume-template').style.display='block';
+}
 
     function printResume(){
         window.print();
