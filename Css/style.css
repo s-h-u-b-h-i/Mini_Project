@@ -1,3 +1,19 @@
 body{
     background-color: red;
 }
+#resume-form{
+    /* display: none; */
+}
+#resume-template{
+    display: none;
+}
+.myimg{
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 200px;
+
+}
+.background{
+    background-color: lightblue;
+
+}
