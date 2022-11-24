@@ -35,11 +35,14 @@ function addNewWEField(){
     document.getElementById("lh").href= document.getElementById("LinkedInfield").value;
     document.getElementById("lh").innerHTML = document.getElementById("LinkedInfield").value;
     //github
-    document.getElementById("GitHubfield").innerHTML = document.getElementById("GitHubfield").value;
+    document.getElementById("gh").href= document.getElementById("GitHubfieldfield").value;
+    document.getElementById("gh").innerHTML = document.getElementById("GitHubfield").value;
     //twitter
-    document.getElementById("Twitterfield").innerHTML = document.getElementById("Twitterfield").value;
+    document.getElementById("th").href= document.getElementById("Twitterfield").value;
+    document.getElementById("th").innerHTML = document.getElementById("Twitterfield").value;
     //leetcode
-    document.getElementById("LeetCodefield").innerHTML = document.getElementById("LeetCodefield").value;
+    document.getElementById("lch").href= document.getElementById("LeetCodefield").value;
+    document.getElementById("lch").innerHTML = document.getElementById("LeetCodefield").value;
     //objective
     document.getElementById("objectiveField").innerHTML = document.getElementById("objectivefield").value;
     //work experience
