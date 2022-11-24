@@ -23,19 +23,19 @@ function addNewWEField(){
     let nameT1 = document.getElementById('nameT1');
     nameT1.innerHTML = nameField;
     document.getElementById("nameT2").innerHTML = nameField;
-    console.log(nameField);
+    // console.log(nameField);
     //contact
     document.getElementById("contactT").innerHTML = document.getElementById("contactfield").value;
-    console.log( document.getElementById("contactfield").value);
+    // console.log( document.getElementById("contactfield").value);
     //address
-    console.log( document.getElementById("addfield").value);
+    // console.log( document.getElementById("addfield").value);
     document.getElementById("addressT").innerHTML = document.getElementById("addfield").value;
     
     //linkedin
     document.getElementById("lh").href= document.getElementById("LinkedInfield").value;
     document.getElementById("lh").innerHTML = document.getElementById("LinkedInfield").value;
     //github
-    document.getElementById("gh").href= document.getElementById("GitHubfieldfield").value;
+    document.getElementById("gh").href= document.getElementById("GitHubfield").value;
     document.getElementById("gh").innerHTML = document.getElementById("GitHubfield").value;
     //twitter
     document.getElementById("th").href= document.getElementById("Twitterfield").value;
@@ -43,6 +43,7 @@ function addNewWEField(){
     //leetcode
     document.getElementById("lch").href= document.getElementById("LeetCodefield").value;
     document.getElementById("lch").innerHTML = document.getElementById("LeetCodefield").value;
+    
     //objective
     document.getElementById("objectiveField").innerHTML = document.getElementById("objectivefield").value;
     //work experience
